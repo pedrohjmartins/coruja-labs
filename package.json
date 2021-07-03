@@ -4,7 +4,8 @@
   "description": "Projeto que contempla o desafio de engenheiro de qualidade da coruja labs",
   "main": "index.js",
   "scripts": {
-    "ui": "./node_modules/.bin/cypress open"
+    "ui": "./node_modules/.bin/cypress open",
+    "e2e": "./node_modules/.bin/cypress run"
   },
   "keywords": [
     "test",
@@ -16,6 +17,8 @@
   "author": "Pedro Martins",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.6.0"
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.3"
   }
 }
