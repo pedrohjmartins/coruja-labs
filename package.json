@@ -1,0 +1,21 @@
+{
+  "name": "coruja-labs",
+  "version": "1.0.0",
+  "description": "Projeto que contempla o desafio de engenheiro de qualidade da coruja labs",
+  "main": "index.js",
+  "scripts": {
+    "ui": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "test",
+    "automation",
+    "api",
+    "e2e",
+    "quality"
+  ],
+  "author": "Pedro Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.6.0"
+  }
+}
