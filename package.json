@@ -7,6 +7,9 @@
     "ui": "./node_modules/.bin/cypress open",
     "e2e": "./node_modules/.bin/cypress run"
   },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/tests"
+  },
   "keywords": [
     "test",
     "automation",
