@@ -46,13 +46,20 @@ npm install
 
 ## Executando o projeto
 
-| 🔡 Comandos          |                                        📝 Descrição                                        |
-| -------------         | :----------------------------------------------------------------------------------------: |
-| npm run ui            |  Abre a interface gráfica do Cypress para escolher qual browser e teste deseja executar.   |
-| npm run all           |                    Executa todos os testes através do próprio terminal.                    |
-| npm run e2e           |              Executa todos os testes end-to-end através do próprio terminal.               |
-| npm run api           |        Executa todos os testes de integração das api's através do próprio terminal.        |
+| 🔡 Comandos          |                                        📝 Descrição                                                          |
+| -------------         |       :----------------------------------------------------------------------------------------:             |
+| npm run ui            |  Abre a interface gráfica do Cypress para escolher qual browser e teste deseja executar.                     |
+| npm run e2e           |              Executa todos os testes end-to-end de forma headless através do próprio terminal.               |
+| npm run api           |        Executa todos os testes de integração das api's de forma headless através do próprio terminal.        |
+
+
+## Questões
+ - As tarefas/problemas/falhas estão dentro da apsta reports/tasks
+ - Os screenshots dos testes que falharam estão dentro da pasta screenshots
+
 
 ---
+
+
 Qualquer dúvida, crítica ou sugestão estou à disposição.
 ⌨️ com ❤️ por **Pedro Martins**
