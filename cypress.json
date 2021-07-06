@@ -1,9 +1,13 @@
 {
     "baseUrl": "https://www.estrategiaconcursos.com.br/",
-    "integrationFolder": "cypress/features",
-    "testFiles": "**/*.feature",
-    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "integrationFolder": "cypress",
+    "testFiles": [ 
+        "integration/**/*.spec.js"
+    ],
     "viewportWidth": 1360,
     "viewportHeight": 790,
-    "video": false
+    "video": false,
+    "env": {
+        "api": "http://54.174.86.218/"
+    }
 }

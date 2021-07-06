@@ -14,7 +14,7 @@ Feature: Buscar cursos por professor(a)
         Then o valor total deve ser R$ "96,00" reais
         And o valor parcelado de "12x de R$ 8,00"
     
-    Scenario: Pesquisar por uma curso que não pertece ao professor(a) selecionado(a)
+    Scenario: Pesquisar por um curso que não pertece ao professor(a) selecionado(a)
         When pesquisar pelo o curso "UERJ - Raciocínio Lógico - 2021 (Pós-Edital)"
         Then deve exibir "Nenhum resultado encontrado."
     
